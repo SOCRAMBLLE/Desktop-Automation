@@ -6,7 +6,7 @@ This project demonstrates how to automate the opening and closing of specific pr
 
 1. **Clone the Repository:** Start by cloning the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/desktop-automation.git
+git clone https://github.com/SOCRAMBLLE/Desktop-Automation.git
 ```
 
 2. **Install Dependencies:** Install the required dependencies using pip:

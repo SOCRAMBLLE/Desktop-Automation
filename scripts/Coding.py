@@ -10,14 +10,17 @@ def close_program(process_name):
 
 def open_Programs():
     config = configparser.ConfigParser()
-    config.read('config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
+    config.read('../config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
     
     vs_code_path = config.get('ProgramPaths', 'VSCode')
     explorer_path = config.get('ProgramPaths', 'Explorer')
     chrome_path = config.get('ProgramPaths', 'Chrome')
+    onedrive_path = config.get('ProgramPaths', 'OneDrive')
     folder_path = config.get('FolderPaths', 'FullStackDev')
     web_address = config.get('WebAddresses', 'Localhost')
 
+    subprocess.Popen([onedrive_path])
+    time.sleep(3)
     subprocess.Popen([vs_code_path])
     time.sleep(3)
     subprocess.Popen([explorer_path, folder_path])

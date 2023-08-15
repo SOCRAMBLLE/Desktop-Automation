@@ -10,7 +10,7 @@ def close_program(process_name):
 
 def open_Programs():
     config = configparser.ConfigParser()
-    config.read('config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
+    config.read('../config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
     
     steam_path = config.get('ProgramPaths', 'Steam')
     discord_path = config.get('ProgramPaths', 'Discord')

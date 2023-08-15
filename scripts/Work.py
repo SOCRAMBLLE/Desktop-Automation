@@ -4,7 +4,7 @@ import time
 
 def open_Programs():
     config = configparser.ConfigParser()
-    config.read('../config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
+    config.read('config.ini') # Create config.ini file with all the paths for the programs and folders you want to use
     
     outlook_path = config.get('ProgramPaths', 'Outlook')
     explorer_path = config.get('ProgramPaths', 'Explorer')

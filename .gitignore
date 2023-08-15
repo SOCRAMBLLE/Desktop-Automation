@@ -1,0 +1,13 @@
+config.ini
+
+*.pyc
+
+__pycache__/
+
+.env
+
+.idea/
+.vscode/
+
+Thumbs.db
+.DS_Store

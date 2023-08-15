@@ -35,7 +35,7 @@ GitHub = https://www.github.com/
 
 5. Run the Gaming.py script to open specified programs, folders, and web addresses.
 ```bash
-python Gaming.py
+py Gaming.py
 ```
 
 ## Contributions

@@ -4,6 +4,7 @@ import os
 def execute_script(name):
     script_path = os.path.join('scripts', name + '.py')
     os.system(f'py {script_path}')
+    root.after(1000, root.destroy)
 
 root = tk.Tk()
 root.title("Desktop Automation Dashboard")

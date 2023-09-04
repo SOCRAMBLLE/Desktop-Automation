@@ -1,6 +1,6 @@
 # Desktop Automation Project
 
-<img src="./img/preview.gif"></img>
+<p align="center"><img src="./img/preview.gif"></img></p>
 
 This project demonstrates how to automate the opening and closing of specific programs, folders, and web addresses using Python. It utilizes the `psutil` and `subprocess` libraries to manage processes and perform automation tasks.
 
